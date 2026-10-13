@@ -1,0 +1,279 @@
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>ResearchInsight</title>
+
+    <style>
+        {{CSS}}
+    </style>
+
+</head>
+
+
+<body>
+
+<div class="page">
+
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <div class="header">
+
+        <div>
+
+            <div class="brand">
+                ResearchInsight
+            </div>
+
+            <div class="tagline">
+                Intelligent research paper analysis
+            </div>
+
+        </div>
+
+
+        <div class="modules">
+            ML&nbsp;&nbsp;·&nbsp;&nbsp;ESE&nbsp;&nbsp;·&nbsp;&nbsp;SEARCH
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         RESULT HEADER
+         ===================================================== -->
+
+    <div class="result-header">
+
+        <div class="eyebrow">
+            Analysis Complete
+        </div>
+
+        <h1 class="result-title">
+            Research Abstract Profile
+        </h1>
+
+        <div class="result-description">
+            A combined machine learning and research-text
+            analysis of the submitted abstract.
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         RESEARCH PROFILE
+         ===================================================== -->
+
+    <div class="profile-grid">
+
+
+        <!-- TOPIC -->
+
+        <div class="card topic-card">
+
+            <div>
+
+                <div class="card-label">
+                    Predicted Research Topic
+                </div>
+
+                <div class="topic">
+                    {{TOPIC}}
+                </div>
+
+                <div class="topic-badge">
+                    MACHINE LEARNING CLASSIFICATION
+                </div>
+
+            </div>
+
+
+            <div class="topic-description">
+                The topic is predicted using the trained
+                research-topic classification model.
+            </div>
+
+        </div>
+
+
+
+        <!-- DOCUMENT LEVEL -->
+
+        <div class="card document-card">
+
+            <div class="card-label">
+                Document-Level Analysis
+            </div>
+
+
+            <!-- OBJECTIVE -->
+
+            <div class="document-section">
+
+                <div class="document-title">
+                    Objective
+                </div>
+
+                <div class="document-text">
+                    {{OBJECTIVE}}
+                </div>
+
+            </div>
+
+
+            <!-- METHOD -->
+
+            <div class="document-section">
+
+                <div class="document-title">
+                    Method
+                </div>
+
+                <div class="document-text">
+                    {{METHOD}}
+                </div>
+
+            </div>
+
+
+            <!-- FINDINGS -->
+
+            <div class="document-section">
+
+                <div class="document-title">
+                    Key Findings
+                </div>
+
+                <div class="document-text">
+                    {{FINDINGS}}
+                </div>
+
+            </div>
+
+
+            <!-- CONCLUSION -->
+
+            <div class="document-section">
+
+                <div class="document-title">
+                    Conclusion
+                </div>
+
+                <div class="document-text">
+                    {{CONCLUSION}}
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         ASPECT LEVEL
+         ===================================================== -->
+
+    <div class="section">
+
+        <div class="section-header">
+
+            <div class="section-title">
+                Research Aspects
+            </div>
+
+            <div class="section-count">
+                {{ASPECT_COUNT}} identified
+            </div>
+
+        </div>
+
+
+        <div class="aspect-grid">
+
+            {{ASPECTS}}
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         SENTENCE LEVEL
+         ===================================================== -->
+
+    <div class="section">
+
+        <div class="section-header">
+
+            <div class="section-title">
+                Sentence-Level Analysis
+            </div>
+
+            <div class="section-count">
+                {{SENTENCE_COUNT}} sentences
+            </div>
+
+        </div>
+
+
+        <div class="sentence-list">
+
+            {{SENTENCES}}
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         ABSTRACT STRUCTURE
+         ===================================================== -->
+
+    <div class="section">
+
+        <div class="section-header">
+
+            <div class="section-title">
+                Abstract Structure
+            </div>
+
+        </div>
+
+
+        <div class="structure">
+
+            {{STRUCTURE}}
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <div class="footer">
+
+        ResearchInsight&nbsp;&nbsp;·&nbsp;&nbsp;
+        Intelligent Research Analysis
+
+    </div>
+
+
+</div>
+
+</body>
+
+</html>
